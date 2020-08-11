@@ -9,4 +9,14 @@ For complete darknet code click here:https://pjreddie.com/darknet/install/
 ###### original paper:
 * https://arxiv.org/abs/1804.02767
 ## 
-* 
+## Usage
+* To use Attribute function, please open macro "OPEN_OCC_CLASS_FLAG", in the project Scope.
+* To use model select function in the Test stage, set field "-test_mode" to 0, 1 or 2, mean run image in a folder to get pre_box, select models base their recall and precision, respectively.
+* To get objects' bounding box and save them to a xml file, please add field "-save_xml" in the script fild.
+eg:
+"""cpp
+
+@echo off
+.\darknet_old.exe detector test E:/ E:\ E:\ -save_xml -test_mode 2 -dont_show
+pause
+"""
