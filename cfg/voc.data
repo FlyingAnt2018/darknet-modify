@@ -1,0 +1,6 @@
+classes= 1
+train  = E:/CNN_workspace/yolo/darknet-master/car_train/data/IPGH_train.txt
+valid  = E:/CNN_workspace/yolo/darknet-master/car_train/data/IPGH_val.txt
+names = E:/CNN_workspace/yolo/darknet-master/car_train/data/IPGH.names
+backup = E:/CNN_workspace/yolo/darknet-master/car_train/backup
+

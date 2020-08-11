@@ -1,0 +1,6 @@
+classes= 20
+train  = E:\data\VOC\VOCtrainval_06-Nov-2007\2007_train.txt
+valid  = E:\data\VOC\VOCtrainval_06-Nov-2007\2007_val.txt
+names = F:\YOLO\darknet-master_sln\darknet-master\data\voc.names
+backup = F:\YOLO\darknet-master_sln\darknet-master\model\
+
