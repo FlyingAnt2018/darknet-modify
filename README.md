@@ -14,7 +14,7 @@ For complete darknet code click here:https://pjreddie.com/darknet/install/
 * To use model select function in the Test stage, set field "-test_mode" to 0, 1 or 2, mean run image in a folder to get pre_box, select models base their recall and precision, respectively.
 * To get objects' bounding box and save them to a xml file, please add field "-save_xml" in the script fild.
 eg:
->@echo off
->.\darknet_old.exe detector test E:/ E:\ E:\ -save_xml -test_mode 2 -dont_show
+>@echo off\
+>.\darknet_old.exe detector test E:/ E:\ E:\ -save_xml -test_mode 2 -dont_show\
 >pause
 
